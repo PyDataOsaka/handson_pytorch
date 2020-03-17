@@ -1,8 +1,8 @@
 import setuptools
 
 
-with open("README.md", encoding="utf8") as f:
-    readme = f.read()
+# with open("README.md", encoding="utf8") as f:
+#     readme = f.read()
 
 
 setuptools.setup(
@@ -12,7 +12,7 @@ setuptools.setup(
     author="Tim Head",
     license="BSD",
     description="VS Code extension for Jupyter",
-    long_description=readme,
+    long_description="", #readme,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
     keywords=["Jupyter", "vscode", "vs code", "editor"],
