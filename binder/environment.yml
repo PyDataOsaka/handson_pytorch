@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - torch
+  - pytorch
   - torchvision
   - tensorboard
   - numpy
