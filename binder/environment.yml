@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - torch
+  - torchvision
+  - tensorboard
+  - numpy
+  - jupyter-server-proxy
+  - code-server
