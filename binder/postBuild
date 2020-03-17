@@ -1,3 +1,12 @@
 jupyter labextension install @jupyterlab/toc
 mv tensorboard_server_extension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 jupyter serverextension enable --sys-prefix tensorboard_server_extension
+
+jupyter serverextension enable --py jupyter_server_proxy
+jupyter labextension install @jupyterlab/server-proxy
+jupyter lab build
+
+code-server --install-extension ms-python.python
+
+# Install the VS code proxy
+pip install -e.
