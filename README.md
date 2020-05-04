@@ -5,6 +5,8 @@
 ## Notebooks
 * https://colab.research.google.com/github/PyDataOsaka/handson_pytorch/blob/master/index.ipynb
 * https://colab.research.google.com/github/PyDataOsaka/handson_pytorch/blob/master/cnn_gpu.ipynb
+* https://colab.research.google.com/github/PyDataOsaka/handson_pytorch/blob/master/resnet18_gpu.ipynb
+* https://colab.research.google.com/github/PyDataOsaka/handson_pytorch/blob/master/resnet18_tpu.ipynb
 
 ## References
 * [Training a classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
